@@ -120,7 +120,7 @@ setInterval(cenario, 200)
     187
 
         addEventListener("touchstart", function() {
-        canvas.onpointerdown = function a(e) {
+        canvas.onclick = function a(e) {
             x = e.pageX - canvas.offsetLeft;
             y = e.pageY - canvas.offsetTop;
             
