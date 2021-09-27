@@ -100,9 +100,16 @@ cvap.fillStyle = "yellow";
 cvap.fillRect(190, 1348, 187, 10);
 cvap.fillStyle = "yellow";
 cvap.fillRect(367, 1206, 10, 152);
-animation.e()
 if(apertado != false) {move[apertado]()}
+//Fisica
+if(personagem.y >= 1040) {
+    personagem.y = 1039;
 }
+animation.e()
+}
+
+
+
 setInterval(cenario, 200)
     //Interação
     onkeydown = s; 
