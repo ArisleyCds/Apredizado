@@ -49,6 +49,9 @@ const move = {
 function cenario() {
 cvap.fillStyle = "black"
 cvap.fillRect(0, 0, 1000, 2000);
+//gpb
+cvap.fillStyle = "gray";
+cvap.fillRect(0, 1190, 1000, 2000);
 //pb
 cvap.fillStyle = "red";
 cvap.fillRect(0, 1360, 187, 152);
